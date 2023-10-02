@@ -1,15 +1,14 @@
-package com.base.mvvmmodule;
+package com.base.mvvmmodule.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.base.androidroommvvm.R;
+import com.base.mvvmmodule.R;
 
 public class NewMartialArtActivity extends AppCompatActivity {
 
@@ -20,7 +19,7 @@ public class NewMartialArtActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_material_art);
+        setContentView(R.layout.activity_new_martial_art);
 
         edtMa = findViewById(R.id.edtMartialArt);
 

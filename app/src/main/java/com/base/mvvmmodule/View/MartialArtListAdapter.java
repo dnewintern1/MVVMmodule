@@ -1,18 +1,18 @@
-package com.base.mvvmmodule;
+package com.base.mvvmmodule.View;
 
 
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
-import com.base.androidroommvvm.room_database.MartialArt;
+import com.base.mvvmmodule.room_database.MartialArt;
+
 
 public class MartialArtListAdapter extends ListAdapter<MartialArt, MartialArtViewHolder> {
 
-    private  ListItemLongClickListner mListItemLongClickListner;
+    private ListItemLongClickListner mListItemLongClickListner;
 
     public MartialArtListAdapter(ListItemLongClickListner listItemLongClickListner,@NonNull DiffUtil.ItemCallback<MartialArt> diffCallback) {
 

@@ -1,6 +1,7 @@
-package com.base.mvvmmodule;
+package com.base.mvvmmodule.View;
 
-import com.base.androidroommvvm.room_database.MartialArt;
+
+import com.base.mvvmmodule.room_database.MartialArt;
 
 public interface ListItemLongClickListner {
 

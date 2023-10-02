@@ -1,4 +1,4 @@
-package com.base.mvvmmodule;
+package com.base.mvvmmodule.View;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,7 +7,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.base.androidroommvvm.R;
+//import com.base.androidroommvvm.R;
+import com.base.mvvmmodule.R;
 
 public class MartialArtViewHolder extends RecyclerView.ViewHolder {
 

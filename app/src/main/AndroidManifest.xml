@@ -13,16 +13,16 @@
         android:theme="@style/Theme.MVVMmodule"
         tools:targetApi="31">
         <activity
+            android:name=".View.NewMartialArtActivity"
+            android:exported="false" />
+        <activity
             android:name=".NewMaterialArtActivity"
             android:exported="false" />
         <activity
             android:name=".NewMaterialActvity"
             android:exported="false" />
         <activity
-            android:name=".NewMartialArtActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".View.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
